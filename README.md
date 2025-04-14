@@ -1,25 +1,32 @@
-# Static Memory Allocation Simulator
+# Static Memory Allocation Simulator 🧠
 
 The **Static Memory Allocation Simulator** is an educational **C application** designed to demonstrate different contiguous memory allocation techniques used in operating systems. By implementing **First Fit**, **Best Fit**, and **Worst Fit** allocation algorithms, this simulator provides valuable insights into how memory allocation works, the impact of different strategies on memory utilization, and the effects of **memory fragmentation**. The application features an interactive interface that allows users to allocate processes, deallocate them, and observe memory state changes in real-time. Through comprehensive visualizations and statistics, users can gain a deeper understanding of memory management concepts essential to operating system design and optimization.
 
-The ultimate goal is to provide students and professionals with a **practical learning tool** to explore memory allocation dynamics, understand fragmentation issues, and compare the effectiveness of different allocation strategies in various scenarios. 💾🧠
+The ultimate goal is to provide students and professionals with a **practical learning tool** to explore memory allocation dynamics, understand fragmentation issues, and compare the effectiveness of different allocation strategies in various scenarios. 💾
 
 ---
 
 ![C](https://img.shields.io/badge/C-Programming_Language-A8B9CC) ![Memory Allocation](https://img.shields.io/badge/Memory-Allocation-orange) ![OS Concepts](https://img.shields.io/badge/OS-Concepts-lightgrey) ![First Fit](https://img.shields.io/badge/First_Fit-Algorithm-blue) ![Best Fit](https://img.shields.io/badge/Best_Fit-Algorithm-green) ![Worst Fit](https://img.shields.io/badge/Worst_Fit-Algorithm-red)
 
+---
+
+<img width="892" alt="Screenshot 2025-04-13 at 9 04 02 PM" src="https://github.com/user-attachments/assets/b3278468-f8b8-4bbe-86d2-fd2b032fc6f8" />
+<img width="893" alt="Screenshot 2025-04-13 at 9 04 38 PM" src="https://github.com/user-attachments/assets/7d9a5548-f455-481e-a358-3ad8732c9b0f" />
+
+---
+
 ### Table of Contents
 - [Features](#-features)
 - [Installation](#-installation)
-- [Usage](#-usage)
+- [Usage](#usage)
 - [Simulation Phases](#-simulation-phases)
 - [Algorithms Explained](#-algorithms-explained)
 - [File Format](#-file-format)
 - [Sample Output](#-sample-output)
-- [Code Structure](#-code-structure)
+- [Code Structure](#code-structure)
 - [Development](#-development)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Contributing](#contributing)
+- [Contact](#contact-)
 
 ---
 
@@ -46,8 +53,8 @@ The ultimate goal is to provide students and professionals with a **practical le
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/static-memory-allocation.git
-   cd static-memory-allocation
+   git clone https://github.com/mariarodr1136/StaticMemoryAllocator.git
+   cd StaticMemoryAllocator
    ```
 
 2. **Compile the source code**:
@@ -55,20 +62,21 @@ The ultimate goal is to provide students and professionals with a **practical le
    gcc static_memory_allocation.c -o static_memory_allocation -Wall
    ```
 
-   Alternatively, if a Makefile is available:
+   Alternatively, a Makefile is available:
    ```bash
    make
    ```
 
 ---
 
-### 🖥️ Usage
+
+### Usage
 
 1. **Prepare an input file** (see [File Format](#-file-format) section) or use the default `input.txt`.
 
 2. **Run the program**:
    ```bash
-   ./static_memory_allocation [input_file]
+   ./memory_allocator
    ```
    If no input file is specified, the program will look for `input.txt` in the current directory.
 
@@ -259,7 +267,7 @@ Worst Fit 71.4%          33.8%           2
 
 ---
 
-### 🏗️ Code Structure
+### Code Structure
 
 The simulator is organized into the following components:
 
@@ -303,24 +311,28 @@ To extend or modify the simulator:
 
 ---
 
-### 🤝 Contributing
+### Contributing 
+Feel free to submit issues or pull requests for improvements or bug fixes. You can also open issues to discuss potential changes or enhancements. All contributions are welcome to enhance the app’s features or functionality!
 
-Contributions are welcome! Here's how you can help improve the simulator:
+To contribute, please follow these steps:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-Potential areas for contribution:
-- Implementing dynamic memory allocation algorithms
-- Adding a graphical user interface
-- Creating additional visualization options
-- Expanding simulation scenarios
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feat/your-feature-name
+- Alternatively, for bug fixes:
+   ```bash
+   git checkout -b fix/your-bug-fix-name
+3. Make your changes and run all tests before committing the changes and make sure all tests are passed.
+4. After all tests are passed, commit your changes with descriptive messages:
+   ```bash
+   git commit -m 'add your commit message'
+5. Push your changes to your forked repository:
+   ```bash
+   git push origin feat/your-feature-name.
+6. Submit a pull request to the main repository, explaining your changes and providing any necessary details.
 
 ---
 
-### 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Contact 🌐
+If you have any questions or feedback, feel free to reach out at [mrodr.contact@gmail.com](mailto:mrodr.contact@gmail.com).
