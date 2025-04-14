@@ -55,6 +55,7 @@ The ultimate goal is to provide students and professionals with a **practical le
    ```bash
    git clone https://github.com/mariarodr1136/StaticMemoryAllocator.git
    cd StaticMemoryAllocator
+   cd CODE
    ```
 
 2. **Compile the source code**:
