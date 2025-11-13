@@ -53,7 +53,7 @@ The ultimate goal is to provide students and professionals with a **practical le
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<YOUR_GITHUB_USERNAME>/StaticMemoryAllocator.git
+   git clone https://github.com/mariarodr1136/StaticMemoryAllocator.git
    cd StaticMemoryAllocator
    cd CODE
    ```
